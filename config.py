@@ -10,9 +10,9 @@
 import os
 
 # Required configurations (loaded from environment variables)
-API_ID = int(os.getenv("API_ID", 0))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+API_ID = int(os.getenv("API_ID", 20815998))
+API_HASH = os.getenv("API_HASH", "761766072a8594ad2cd13d9f4f3e99fd")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8452366963:AAHgRmkmRBKfJ-Dly1TOkJTtT_xqPID1u8Q")
 MONGO_URI = os.getenv("MONGO_URI", "")
 DB_NAME = os.getenv("DB_NAME", "Cluster0")
 
